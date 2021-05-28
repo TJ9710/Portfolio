@@ -94,7 +94,7 @@
   }
   .card {
     display: block;
-    flex-direction: row;
+    flex-direction: column;
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
@@ -183,7 +183,7 @@
         display: -ms-flexbox;      /* TWEENER - IE 10 */
         display: flex;
         /* https://www.w3schools.com/csS/css3_flexbox_container.asp#flex-direction */
-        flex-direction: row; 
+        flex-direction: column; 
         max-width: 1200px;
         -ms-flex-pack: distribute;
         justify-content: space-around;
